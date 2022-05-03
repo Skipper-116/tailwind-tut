@@ -2,11 +2,11 @@ function MediaQueries() {
     return (
         <div className="flex flex-col items-center">
             <h1 className=" text-slate-700">Responsive Breakpoints</h1>
-            <div className=" sm:bg-green-600 md:bg-yellow-400 lg:bg-purple-600 xl:bg-red-500 text-white mt-6 bg-blue-500">
+            <div className=" sm:bg-green-600 md:bg-yellow-400 lg:bg-purple-600 xl:bg-red-500 text-white mt-2 bg-blue-500">
                 <p>Welcome to Pseudo Elements</p>
             </div>
             <h1 className=" text-slate-800 mt-4 ">Prefers color scheme</h1>
-            <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mt-4">
+            <div className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl mt-2">
                 <div>
                     <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
                         <p className="h-6 w-6 text-white">Icon</p>
@@ -17,6 +17,9 @@ function MediaQueries() {
                     The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
                 </p>
             </div>
+            <h1 className=" text-slate-700 mt-4">Viewport orientation</h1>
+            <p className=" portrait:hidden mt-2">Only viewable in landscape</p>
+            <p className=" landscape:hidden mt-2">Only viewable in portrait mode</p>
         </div>
     )
 }
