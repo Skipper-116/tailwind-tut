@@ -27,6 +27,13 @@ function PseudoClass() {
                 <input className=" peer required:outline-none required:ring required:ring-red-500 valid:outline-none valid:ring valid:ring-green-500 py-4 px-2 rounded mx-0 w-full invalid:outline-none invalid:ring invalid:ring-yellow-500" required type="email" id="name" placeholder="Enter your name e.g John Done"></input>
                 <span className="mt-2 invisible peer-invalid:visible bg-yellow-500 text-sm">Please enter a valid email address</span>
             </label>
+            <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+                <div class="flex items-center space-x-3">
+                    <p class="h-6 w-6 text-slate-900 group-hover:text-slate-50" fill="none" viewBox="0 0 24 24">Icon</p>
+                    <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold">New project</h3>
+                </div>
+                <p class="text-slate-500 group-hover:text-white text-sm">Create a new project from a variety of starting templates.</p>
+            </a>
         </div>
     )
 }
